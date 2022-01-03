@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">21.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.tests.HomePage_Test</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1597807026537</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.tests.HomePage_Test</td><td><a href="#m2"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td>1597807048428</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.tests.HomePage_Test</td><td><a href="#m3"><b>firstTest</b>  </a></td><td class="numi">1</td><td>1597807048422</td><td class="numi">3</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.tests.HomePage_Test:setup</h2>
+<div style="padding-left:3em">
+<p>Found 10 accessibility violations:
+1) Certain ARIA roles must be contained by particular parents: https://dequeuniversity.com/rules/axe/4.0/aria-required-parent?application=axeAPI
+  a) [&quot;#elementor-tab-title-9801&quot;]
+    Fix any of the following:
+      Required ARIA parent role not present: tablist
+
+
+  b) [&quot;#elementor-tab-title-9802&quot;]
+    Fix any of the following:
+      Required ARIA parent role not present: tablist
+
+
+  c) [&quot;#elementor-tab-title-9803&quot;]
+    Fix any of the following:
+      Required ARIA parent role not present: tablist
+
+
+  d) [&quot;#elementor-tab-title-9804&quot;]
+    Fix any of the following:
+      Required ARIA parent role not present: tablist
+
+
+  e) [&quot;#elementor-tab-title-9805&quot;]
+    Fix any of the following:
+      Required ARIA parent role not present: tablist
+
+
+2) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/4.0/color-contrast?application=axeAPI
+  a) [&quot;.elementor-element-4b451ee &gt; .elementor-widget-container &gt; .elementor-text-editor.elementor-clearfix &gt; p&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  b) [&quot;a[href=\&quot;tel\\:41216331960\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  c) [&quot;.elementor-element-268866f &gt; .elementor-widget-container &gt; .elementor-text-editor.elementor-clearfix &gt; p&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  d) [&quot;a[href=\&quot;tel\\:18007202751\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [&quot;a[href=\&quot;tel\\:15143958999\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [&quot;.elementor-element-d484337 &gt; .elementor-widget-container &gt; .elementor-text-editor.elementor-clearfix &gt; p&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [&quot;a[href=\&quot;tel\\:541152353919\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [&quot;.elementor-element-246285a &gt; .elementor-widget-container &gt; .elementor-text-editor.elementor-clearfix &gt; p&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [&quot;a[href=\&quot;tel\\:966555221919\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [&quot;a[href=\&quot;tel\\:962796664945\&quot;] &gt; span&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  k) [&quot;.elementor-element-6cd768e &gt; .elementor-widget-container &gt; .elementor-text-editor.elementor-clearfix &gt; p&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.4 (foreground color: #b5b5b5, background color: #3f4a56, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  l) [&quot;.elementor-size-small&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.05 (foreground color: #92979c, background color: #3f4a56, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+3) IDs of active elements must be unique: https://dequeuniversity.com/rules/axe/4.0/duplicate-id-active?application=axeAPI
+  a) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-75d82a5.elementor-hidden-phone[data-id=\&quot;\\37 5d82a5\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7bd160f.elementor-search-form--skin-full_screen.hSearch &gt; .elementor-widget-container &gt; .elementor-search-form[role=\&quot;search\&quot;][action=\&quot;https\\:\\/\\/www\\.navori\\.com\&quot;] &gt; .elementor-search-form__container &gt; a[href=\&quot;javascript\\:void\\(0\\)\&quot;]&quot;]
+    Fix any of the following:
+      Document has active elements with the same id attribute: backsrcbtnhd
+
+
+4) IDs used in ARIA and labels must be unique: https://dequeuniversity.com/rules/axe/4.0/duplicate-id-aria?application=axeAPI
+  a) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-09aeb80.hLogin[data-id=\&quot;\\30 9aeb80\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7521b85.elementor-widget-html[data-id=\&quot;\\37 521b85\&quot;] &gt; .elementor-widget-container &gt; .hLogForm &gt; form[method=\&quot;post\&quot;][name=\&quot;hLogin\&quot;] &gt; input[maxlength=\&quot;\\35 0\&quot;][name=\&quot;UID\&quot;][type=\&quot;email\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: hLEmail
+
+
+  b) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-09aeb80.hLogin[data-id=\&quot;\\30 9aeb80\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7521b85.elementor-widget-html[data-id=\&quot;\\37 521b85\&quot;] &gt; .elementor-widget-container &gt; .hLogForm &gt; form[method=\&quot;post\&quot;][name=\&quot;hLogin\&quot;] &gt; input[maxlength=\&quot;\\31 5\&quot;][name=\&quot;PWD\&quot;][type=\&quot;password\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: hLPassword
+
+
+5) id attribute value must be unique: https://dequeuniversity.com/rules/axe/4.0/duplicate-id?application=axeAPI
+  a) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-09aeb80.hLogin[data-id=\&quot;\\30 9aeb80\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-154e00c.elementor-widget-eael-creative-button[data-id=\&quot;\\31 54e00c\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: hLogBt
+
+
+  b) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-09aeb80.hLogin[data-id=\&quot;\\30 9aeb80\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7521b85.elementor-widget-html[data-id=\&quot;\\37 521b85\&quot;] &gt; .elementor-widget-container &gt; .hLogForm&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: hLogForm
+
+
+  c) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-09aeb80.hLogin[data-id=\&quot;\\30 9aeb80\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7521b85.elementor-widget-html[data-id=\&quot;\\37 521b85\&quot;] &gt; .elementor-widget-container &gt; .hLogForm &gt; form[method=\&quot;post\&quot;][name=\&quot;hLogin\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: hLogin
+
+
+  d) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-75d82a5.elementor-hidden-phone[data-id=\&quot;\\37 5d82a5\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7bd160f.elementor-search-form--skin-full_screen.hSearch&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: headsearch
+
+
+  e) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-95540f1.elementor-nav-menu--stretch.elementor-nav-menu__text-align-center&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: hNavMenu
+
+
+  f) [&quot;ul[data-smartmenus-id=\&quot;\\31 59780703551964\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: menu-1-95540f1
+
+
+  g) [&quot;ul[data-smartmenus-id=\&quot;\\31 597807035528126\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute: menu-2-95540f1
+
+
+6) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/4.0/label-title-only?application=axeAPI
+  a) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-e8320e5.elementor-section-content-top[data-id=\&quot;e8320e5\&quot;] &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-75d82a5.elementor-hidden-phone[data-id=\&quot;\\37 5d82a5\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-7bd160f.elementor-search-form--skin-full_screen.hSearch &gt; .elementor-widget-container &gt; .elementor-search-form[role=\&quot;search\&quot;][action=\&quot;https\\:\\/\\/www\\.navori\\.com\&quot;] &gt; .elementor-search-form__container &gt; .elementor-search-form__input[placeholder=\&quot;Search\\.\\.\\.\&quot;][type=\&quot;search\&quot;]&quot;]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+7) Document must have one main landmark: https://dequeuniversity.com/rules/axe/4.0/landmark-one-main?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix all of the following:
+      Document does not have a main landmark
+
+
+8) Ensures landmarks are unique: https://dequeuniversity.com/rules/axe/4.0/landmark-unique?application=axeAPI
+  a) [&quot;.elementor-sticky--effects &gt; .elementor-column-gap-no.elementor-container &gt; .elementor-row &gt; .elementor-element-80dfe94.elementor-col-100[data-id=\&quot;\\38 0dfe94\&quot;] &gt; .elementor-element-populated.elementor-column-wrap &gt; .elementor-widget-wrap &gt; .elementor-element-95540f1.elementor-nav-menu--stretch.elementor-nav-menu__text-align-center &gt; .elementor-widget-container &gt; .e--animation-grow.elementor-nav-menu--main.elementor-nav-menu--layout-horizontal&quot;]
+    Fix any of the following:
+      The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable
+
+
+  b) [&quot;.elementor-element-a1534e1 &gt; .elementor-widget-container &gt; .n2-section-smartslider.fitvidsignore[role=\&quot;region\&quot;]&quot;]
+    Fix any of the following:
+      The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable
+
+
+9) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/4.0/region?application=axeAPI
+  a) [&quot;.elementor-element-7f2bc5cf&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [&quot;.elementor-element-b2c621c&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) [&quot;.elementor-element-baf03ae&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) [&quot;.elementor-element-cb31cf9&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [&quot;.elementor-element-84c1841&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) [&quot;.elementor-element-de982b7&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) [&quot;.elementor-element-dc44cf0&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) [&quot;.elementor-element-7a2e358&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [&quot;.elementor-element-55056bb&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) [&quot;.elementor-element-367309e7&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) [&quot;.elementor-element-fbccf2e&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) [&quot;.elementor-element-77d697b&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) [&quot;.elementor-element-6b306db&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) [&quot;.swiper-slide-active &gt; a[data-elementor-open-lightbox=\&quot;yes\&quot;][data-elementor-lightbox-slideshow=\&quot;c9bd7b2\&quot;][data-elementor-lightbox-title=\&quot;access_control_videolink\&quot;] &gt; .elementor-carousel-image &gt; .elementor-custom-embed-play &gt; .elementor-screen-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) [&quot;.swiper-slide-duplicate-active &gt; a[data-elementor-open-lightbox=\&quot;yes\&quot;][data-elementor-lightbox-slideshow=\&quot;c9bd7b2\&quot;][data-elementor-lightbox-title=\&quot;access_control_videolink\&quot;] &gt; .elementor-carousel-image &gt; .elementor-custom-embed-play &gt; .elementor-screen-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  p) [&quot;.swiper-pagination&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  q) [&quot;.elementor-swiper-button-prev&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  r) [&quot;.elementor-swiper-button-next&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  s) [&quot;.elementor-element-769e6c3&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  t) [&quot;.elementor-element-183312a&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  u) [&quot;.elementor-element-d58a4e0&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  v) [&quot;#elementor-tab-title-9801&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  w) [&quot;#elementor-tab-title-9802&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  x) [&quot;#elementor-tab-title-9803&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  y) [&quot;#elementor-tab-title-9804&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  z) [&quot;#elementor-tab-title-9805&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  aa) [&quot;.elementor-element-2b95eb9e&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ab) [&quot;.elementor-element-58c0fa4&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ac) [&quot;.elementor-element-f1c791a&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ad) [&quot;.elementor-element-84445fb&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+10) Elements should not have tabindex greater than zero: https://dequeuniversity.com/rules/axe/4.0/tabindex?application=axeAPI
+  a) [&quot;#elementor-tab-title-9801&quot;]
+    Fix any of the following:
+      Element has a tabindex greater than 0
+
+
+  b) [&quot;#elementor-tab-title-9802&quot;]
+    Fix any of the following:
+      Element has a tabindex greater than 0
+
+
+  c) [&quot;#elementor-tab-title-9803&quot;]
+    Fix any of the following:
+      Element has a tabindex greater than 0
+
+
+  d) [&quot;#elementor-tab-title-9804&quot;]
+    Fix any of the following:
+      Element has a tabindex greater than 0
+
+
+  e) [&quot;#elementor-tab-title-9805&quot;]
+    Fix any of the following:
+      Element has a tabindex greater than 0
+
+ expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.tests.HomePage_Test.setup(HomePage_Test.java:34)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.tests.HomePage_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.tests.HomePage_Test:firstTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
